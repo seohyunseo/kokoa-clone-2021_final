@@ -1,3 +1,3 @@
 # Kokoa Clone 2021 final
 
-This is for final assignment.
+This file is for final assignment!
