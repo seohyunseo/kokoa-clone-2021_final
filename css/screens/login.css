@@ -1,0 +1,60 @@
+.index-body {
+  /* background-image: url("https://upload2.inven.co.kr/upload/2017/10/10/bbs/i13156594103.jpg");*/
+}
+
+.welcome-header {
+  margin: 80px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  margin: 0px 30px;
+}
+.login-form,
+.login-form__plc,
+.login-form__btn {
+  padding: 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.login-form__plc {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out;
+  opacity: 50%;
+}
+.login-form__btn {
+  background-color: var(--green);
+  border: var(--border);
+}
+/*detail*/
+.login-form__plc:focus {
+  background-color: var(--skin);
+}
+.login-form__btn:hover {
+  transform: scale(1.1);
+}
+.login-form__btn:focus {
+  background-color: black;
+  color: var(--skin);
+}
+.login-form__a {
+  text-align: center;
+  font-size: 13px;
+}
